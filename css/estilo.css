@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Retrochips";
+    src: url("fontes/Retrochips.otf");
+}
+
+.js .anime {
+    opacity: 0;
+    transform: translate3D(-50px, 0px, 0px);
+}
+
+.js .anime-init {
+    opacity: 1;
+    transform: translate3D(0px, 0px, 0px);
+    transition: .3s all ease;
+}
+
+.box {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(156, 154, 154);
+    margin: 0 auto 20px auto;
+    padding: 5px;
+}
+
+.box p {
+    color: white;
+    font-family: sans-serif;
+    text-align: justify;
+    padding: 5px;
+}
+
+
+
+#roxo {
+    background: #3c1e3e;
+}
+
+
+#azul {
+    background: #8ac4cc;
+}
+
+section {
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+
+h1 {
+    font-size: 14px;
+    font-family: monaco;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: #fcfcfc;
+    margin-bottom: 40px;
+    
+}
+
+h5 {
+    color: #fcfcfc;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+#origamid {
+    font-family: monaco;
+    text-decoration: none;
+    color: #84E;
+    display: inline-block;
+}
+
+#origamid::after, #origamid::before {
+    content: '';
+    display: block;
+    background: #84E;
+    width: 0;
+    height: 2px;
+    border-radius: 4px;
+    margin: 6px auto 6px auto;
+    transition: all .2s ease;
+}
+
+#origamid:hover::after, #origamid:hover::before {
+    width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Retrochips";
+    src: url("fontes/Retrochips.otf");
+}
+
+body{
+    background: #ece9ec;
+}
+
+#logo {
+    width: 30%;    
+}
+
+#logo {
+    width: 30%;
+}
+
+#menu{
+    background: #3c1e3e;
+}
+
+#nav-principal li a {
+    color: #ffffff;
+}
+
+h1{
+    font-family:"Retrochips"
+}
+
+body{
+    background: #ece9ec;
+}
+
+#logo {
+    width: 30%;    
+}
+
+#logo {
+    width: 30%;
+}
+
+#menu{
+    background: #3c1e3e;
+}
+
+#nav-principal li a {
+    color: #ffffff;
+}
+
+h1{
+    font-family:"Retrochips"
+}
+
