@@ -35,8 +35,13 @@
     padding: 5px;
 }
 
+#foto_capa{
+    background-image: url(/imagens/animacao.gif)
+    
+}
+
 #home{
-    background-image: url(/imagens/animacao.gif);
+    background:rgb(7, 7, 7);
     border-radius: 10px;
     box-shadow: 10px 10px 5px rgb(135, 133, 136);
 }
@@ -70,7 +75,7 @@ h1 {
 }
 
 h2 , p , h4{
-    color: #e9da36;
+    color: #fffffe;
 }
 
 h5 {
@@ -110,15 +115,6 @@ footer {
 }
 
 
-
-#logo {
-    width: 30%;    
-}
-
-#logo {
-    width: 30%;
-}
-
 #menu{
     background: #3c1e3e;
 }
@@ -136,9 +132,7 @@ body{
     width: 30%;    
 }
 
-#logo {
-    width: 30%;
-}
+
 
 #menu{
     background: #3c1e3e;
