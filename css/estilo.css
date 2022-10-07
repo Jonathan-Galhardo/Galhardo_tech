@@ -8,6 +8,21 @@
     src: url("fontes/Retrochips.otf");
 }
 
+#menu{
+    background: #e5e5ea;
+    height:5rem;
+    
+}
+
+#logo{
+    width: 15rem;
+}
+
+#nav-principal li a {
+    color: #0030ff;
+    
+}
+
 .js .anime {
     opacity: 0;
     transform: translate3D(-50px, 0px, 0px);
@@ -17,6 +32,7 @@
     opacity: 1;
     transform: translate3D(0px, 0px, 0px);
     transition: .3s all ease;
+    border:  1 px solid rgb(0, 0, 0);
 }
 
 .box {
@@ -35,15 +51,12 @@
     padding: 5px;
 }
 
-#foto_capa{
-    background-image: url(/imagens/animacao.gif)
+.home{
+    width: 100%;
+   
+    justify-content: center;
+    margin: auto;
     
-}
-
-#home{
-    background:rgb(7, 7, 7);
-    border-radius: 10px;
-    box-shadow: 10px 10px 5px rgb(135, 133, 136);
 }
 
 #roxo {
@@ -56,7 +69,8 @@
 }
 
 section {
-    max-width: 95%;
+    background-image: url(/img/background.gif);
+    max-width: 100%;
     margin: 0 auto;
     padding: 20px 0;
     text-align: center;
@@ -88,23 +102,8 @@ footer {
     margin-bottom: 120px;
 }
 
-#origamid {
-    font-family: monaco;
-    text-decoration: none;
-    color: #84E;
-    display: inline-block;
-}
 
-#origamid::after, #origamid::before {
-    content: '';
-    display: block;
-    background: #84E;
-    width: 0;
-    height: 2px;
-    border-radius: 4px;
-    margin: 6px auto 6px auto;
-    transition: all .2s ease;
-}
+
 
 
 
@@ -115,32 +114,11 @@ footer {
 }
 
 
-#menu{
-    background: #3c1e3e;
-}
-
-
 h1{
     font-family:"Retrochips"
 }
 
-body{
-    background-image: url(/imagens/fundo.png);
-}
 
-#logo {
-    width: 30%;    
-}
-
-
-
-#menu{
-    background: #3c1e3e;
-}
-
-#nav-principal li a {
-    color: #ffffff;
-}
 
 h1{
     font-family:"Retrochips"
