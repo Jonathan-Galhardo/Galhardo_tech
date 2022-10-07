@@ -35,21 +35,6 @@
     border:  1 px solid rgb(0, 0, 0);
 }
 
-.box {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 10px 10px 5px rgb(156, 154, 154);
-    margin: 0 auto 5px auto;
-    padding: 5px;
-}
-
-.box p {
-    color: white;
-    font-family: sans-serif;
-    text-align: justify;
-    padding: 5px;
-}
 
 .home{
     width: 100%;
@@ -60,7 +45,7 @@
 }
 
 #roxo {
-    background: #3c1e3e;
+    
 }
 
 
@@ -68,7 +53,7 @@
     background-image: url(/imagens/animacao.gif);
 }
 
-section {
+#home {
     background-image: url(/img/background.gif);
     max-width: 100%;
     margin: 0 auto;
@@ -83,17 +68,18 @@ h1 {
     font-family: monaco;
     text-transform: uppercase;
     letter-spacing: .1em;
-    color: #fcfcfc;
+    color: #0030ff;
     margin-bottom: 40px;
     
 }
 
 h2 , p , h4{
-    color: #fffffe;
+    color: #0030ff;
+    text-align: justify;
 }
 
 h5 {
-    color: #fcfcfc;
+    color: #0030ff;
     text-align: left;
 }
 
